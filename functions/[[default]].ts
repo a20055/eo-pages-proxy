@@ -38,7 +38,7 @@ export async function onRequestOptions() {
 export async function onRequest({ request }: { request: EORequest }) {
   // 处理 URL
   const url = new URL(request.url);
-  url.hostname = "cdn.jsdelivr.net"; // 此处替换为要反代的域名
+  url.hostname = "www.google.com.hk"; // 此处替换为要反代的域名
 
   // 请求头处理，去除可能导致错误的 headers
   const headers = new Headers(request.headers);
