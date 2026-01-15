@@ -1,4 +1,4 @@
-uinterface GeoProperties {
+interface GeoProperties {
   asn: number;
   countryName: string;
   countryCodeAlpha2: string;
